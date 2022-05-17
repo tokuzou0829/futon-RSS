@@ -105,14 +105,14 @@ async function getMemberFeedItems(member: Member): Promise<PostItem[]> {
     .map((_: any) => _.properties)
     .map((_: any) => {
       return {
-        id: _.id.rich_text[0].plain_text,
-        name: _.Name.title[0].plain_text,
-        role: _.role.rich_text[0].plain_text,
-        bio: _.bio.rich_text[0].plain_text,
-        avatarSrc: _.avatarSrc.url,
-        twitterUsername: _.twitterUsername.rich_text[0].plain_text,
-        githubUsername: _.githubUsername.rich_text[0].plain_text,
-        websiteUrl: _.websiteUrl.url,
+        id: _.id.rich_text[0]?.plain_text,
+        name: _.Name.title[0]?.plain_text,
+        role: _.role.rich_text[0]?.plain_text,
+        bio: _.bio.rich_text[0]?.plain_text,
+        avatarSrc: _.avatarSrc?.url,
+        twitterUsername: _.twitterUsername.rich_text[0]?.plain_text,
+        githubUsername: _.githubUsername.rich_text[0]?.plain_text,
+        websiteUrl: _.websiteUrl?.url,
         sources: [_.sources.url],
       };
     });
