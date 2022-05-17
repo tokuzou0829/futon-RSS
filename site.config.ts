@@ -1,7 +1,7 @@
 export const config = {
   siteMeta: {
     title: "FutonRSSFeeds",
-    teamName: "@tokuchan0829",
+    teamName: "tokuchan0829",
     description: "俺の推しのRSSを見るサイト",
   },
   siteRoot:
