@@ -11,11 +11,13 @@
   },
   "dependencies": {
     "@notionhq/client": "^0.4.13",
+    "@types/rss": "^0.0.29",
     "dayjs": "^1.9.3",
     "dotenv": "^16.0.0",
     "next": "^12.1.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "rss": "^1.2.2"
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.2",
