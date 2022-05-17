@@ -14,6 +14,10 @@ export const config = {
       href: "/about",
     },
     {
+      title: "Feed",
+      href: "/feed",
+    },
+    {
       title: "GitHub",
       href: "https://github.com/yutakobayashidev/team-blog-hub-notion-api",
     },
