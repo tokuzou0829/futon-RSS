@@ -83,6 +83,12 @@ async function getMemberFeedItems(member: Member): Promise<PostItem[]> {
 
   const data = await notion.databases.query({
     database_id: process.env.NOTION_DATABASE_ID,
+    sorts: [
+      {
+        property: "順位",
+        direction: "ascending",
+      },
+    ],
     filter: {
       and: [
         {
