@@ -12,7 +12,7 @@ const Page: NextPage = () => {
           <h1 className="about__title">About</h1>
           <div className="about__body">
             <p>
-              このサイトはとくぞうの推しのRSSを取得し公開するためのサイトです.catnose氏の
+              このサイトはとくぞうの推しのRSSを取得し公開するためのサイトです。catnose氏の
               <a href="https://github.com/catnose99/team-blog-hub">
                 Team Blog Hub
               </a>
