@@ -28,6 +28,7 @@ const Page: NextPage = () => {
                 nitter
               </a>  
               を使用しています。
+            </p>
             <p>
               RSSは約1時間で更新されるように設定されています。
             </p>
