@@ -19,7 +19,7 @@ export const config = {
     },
     {
       title: "GitHub",
-      href: "https://github.com/yutakobayashidev/team-blog-hub-notion-api",
+      href: "https://github.com/tokuzou0829/futon-RSS",
     },
   ],
 };
