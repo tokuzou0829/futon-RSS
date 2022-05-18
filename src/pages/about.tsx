@@ -23,6 +23,12 @@ const Page: NextPage = () => {
               を使用してこのサイトは作られています。
             </p>
             <p>
+              また、RSSの取得には
+             <a href="https://nitter.net/">
+                nitter
+              </a>  
+              を使用しています。
+            <p>
               RSSは約1時間で更新されるように設定されています。
             </p>
           </div>
